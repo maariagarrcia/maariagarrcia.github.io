@@ -1,0 +1,125 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f39150;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 25px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1{
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 0;
+}
+
+.registration-title {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+/* Estilos específicos para campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 10px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #ff6600;
+}
+
+/* Estilos para los botones */
+input[type="submit"] {
+    background-color: #ffffff;
+    font-weight: bold;
+    color: #000000;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6600;
+}
+
+/* Estilos específicos para el botón "Registrarse" */
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Estilos específicos para los botones "Registro" y "Registrarse" */
+.button {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    text-decoration: none; /* Elimina la subrayado predeterminado en los enlaces */
+}
+
+.button:hover {
+    background-color: #ff6600;
+}
+
+/* Otros estilos de enlaces */
+a {
+    color: #ff6600;
+    text-decoration: none;
+    
+}
+
+
+.error-message {
+    color: red;
+    text-align: left;
+    margin-top: 5px;
+}

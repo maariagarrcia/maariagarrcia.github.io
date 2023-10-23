@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="/static/css/style_auth.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>INICIAR SESIÓN</h1>
+        <form action="/login/submit" method="post">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Campo de contraseña más grande y alineado a la izquierda -->
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" class="btn btn-primary btn-block" value="INICIAR SESION">
+        </form>
+
+        <p>¿No tienes una cuenta? <a href="/templates/registro.html">Regístrate aquí</a>.</p>
+    </div>
+</body>
+</html>
